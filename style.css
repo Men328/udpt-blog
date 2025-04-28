@@ -1,3 +1,4 @@
+/* Reset CSS cơ bản */
 * {
     margin: 0;
     padding: 0;
@@ -5,31 +6,61 @@
   }
   
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
     color: #333;
-    padding: 20px;
+    background-color: #f9f9f9;
   }
   
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  /* Header */
   header {
+    background: #4CAF50;
+    color: white;
+    padding: 40px 0;
     text-align: center;
-    margin-bottom: 40px;
   }
   
   header h1 {
-    font-size: 2.5rem;
-    color: #0056b3;
+    font-size: 2.5em;
   }
   
   header p {
-    font-size: 1.2rem;
-    color: #555;
+    margin-top: 10px;
+    font-size: 1.2em;
   }
   
+  /* Navbar */
+  .navbar {
+    background: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main */
   main {
-    max-width: 900px;
-    margin: auto;
+    background: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   
   section {
@@ -37,25 +68,17 @@
   }
   
   h2 {
-    font-size: 2rem;
-    color: #0077cc;
     margin-bottom: 10px;
+    color: #4CAF50;
   }
   
-  ul {
-    list-style: inside disc;
-    margin-top: 10px;
-    padding-left: 20px;
-  }
-  
-  li {
-    margin-bottom: 8px;
-  }
-  
+  /* Footer */
   footer {
+    background: #333;
+    color: white;
     text-align: center;
-    margin-top: 60px;
-    font-size: 0.9rem;
-    color: #888;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
   }
   

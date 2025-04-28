@@ -1,4 +1,11 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Blog Hệ thống phân tán đã được load thành công!');
+// Thêm smooth scroll cho link nav
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
   });
   
