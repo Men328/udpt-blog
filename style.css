@@ -23,7 +23,7 @@ body {
 
 /* Header */
 header {
-    background: #d36543f9;
+    background: #7362c8f9;
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -97,7 +97,7 @@ footer {
 /* Image Styling */
 img {
     width: 100%;
-    max-width: 600px; /* Ảnh không vượt quá 600px */
+    max-width: 8800px; /* Ảnh không vượt quá 600px */
     height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
     display: block; /* Tránh khoảng trống dưới ảnh */
     margin: 20px auto; /* Căn giữa ảnh và cách đều xung quanh */
