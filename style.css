@@ -3,82 +3,93 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+
+body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
-  }
-  
-  /* Container */
-  .container {
+}
+
+/* Container */
+.container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
     padding: 20px 0;
-  }
-  
-  /* Header */
-  header {
+}
+
+/* Header */
+header {
     background: #4CAF50;
     color: white;
     padding: 40px 0;
     text-align: center;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 2.5em;
-  }
-  
-  header p {
+}
+
+header p {
     margin-top: 10px;
     font-size: 1.2em;
-  }
-  
-  /* Navbar */
-  .navbar {
+}
+
+/* Navbar */
+.navbar {
     background: #333;
     padding: 10px 0;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     text-decoration: underline;
-  }
-  
-  /* Main */
-  main {
+}
+
+/* Main */
+main {
     background: white;
     padding: 30px;
+    /* Thêm padding để nội dung không bị tràn ra ngoài */
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* Đảm bảo nội dung con cũng bo theo góc */
+}
+
+
+section {
     margin-bottom: 40px;
-  }
-  
-  h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+
+h2 {
     margin-bottom: 10px;
     color: #4CAF50;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+/* Footer */
+footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
     font-size: 0.9em;
-  }
-  
+}
